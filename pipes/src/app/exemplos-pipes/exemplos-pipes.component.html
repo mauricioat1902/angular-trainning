@@ -1,0 +1,17 @@
+<p>Exemplos de Pipes</p>
+
+<p>Tíulo: {{ livro.titulo | lowercase | camelCase}} </p>
+<p>Estrelas: {{ livro.rating | number:'1.1-2'}} </p>
+<p>Páginas: {{ livro.numeroPaginas }} </p>
+<p>Preço: {{ livro.preco | currency:'BRL' }} </p>
+<p>Data Lançamento: {{ livro.dataLancamento | date:'dd-MMM-yyyy' }} </p>
+<p>Url: {{ livro.url }} </p>
+<br>
+<p>Livro: {{ livro | json}} </p>
+
+<h5>Pipe Impuro</h5>
+<ul>
+  <li *ngFor="let liv of livros | filtroArrayImpuro:filtro" >
+    {{ liv }}
+  </li>
+</ul>
