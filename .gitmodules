@@ -1,0 +1,15 @@
+[submodule "angular-hello-world"]
+	path = angular-hello-world
+	url = https://github.com/mauricioat1902/angular-trainning.git
+[submodule "data-binding"]
+	path = data-binding
+	url = https://github.com/mauricioat1902/angular-trainning.git
+[submodule "pipes"]
+	path = pipes
+	url = https://github.com/mauricioat1902/angular-trainning.git
+[submodule "rotas"]
+	path = rotas
+	url = https://github.com/mauricioat1902/angular-trainning.git
+[submodule "servicos"]
+	path = servicos
+	url = https://github.com/mauricioat1902/angular-trainning.git
